@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="C:\xampp\htdocs\Dbms_project\homepage\hp\assets\css\bootstrap.min.css" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesC:\xampp\htdocs\Dbms_project\homepage\hp\assets\css\font-awesome.cssome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="C:\xampp\htdocs\Dbms_project\homepage\hp\assets\css\style.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
+
+	<?php
+	    if(isset($_get['action']) &&)
+
+	<!-- *******body start****** -->
+
+	<body>
+		<div class="wrapper">
+			<!-- *****header****** -->
+            <header>
+				  <nav class="navbar navbar-default" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<a class=" navbar-brand" class="logo">
+								<b>FMS</b>
+							</a>
+						</div>
+						<div class="navbar-header">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="?action=logout"><b>log out</b></a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<!-- *****header end***** -->
+			
+			<!-- main content -->
+
+			<div class="main-content">
+				<div class="container">
+					<!-- login area -->
+					<div class="login-area">
+						<!-- heading -->
+						<h3>Log In, To Your Account</h3>
+						<!-- paragraph -->
+						<p>Enjoy our service!</p>
+						<form action="verifylogin.php" method="POST",id="login-form">
+							<div class="form-group">
+								<label for="email">Email address</label>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+							</div>
+							<div class="form-group">
+								<label for="password">Password</label>
+								<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+							</div>
+							
+							<div class="checkbox form-group">
+								<label>
+									<input type="checkbox"> Remember me
+								</label>
+							</div>
+							<button type="submit" class="btn btn-warning">Login</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			
+			<!-- footer -->
+			<footer>
+				
+			</footer>
+		</div>		
+		
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="C:\xampp\htdocs\Dbms_project\homepage\hp\assets\js\jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="C:\xampp\htdocs\Dbms_project\homepage\hp\assets\js\bootstrap.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="C:\xampp\htdocs\Dbms_project\homepage\hp\assets\js\respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="C:\xampp\htdocs\Dbms_project\homepage\hp\assets\js\html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="C:\xampp\htdocs\Dbms_project\homepage\hp\assets\js\custom.js"></script>
+	</body>	
+</html>
